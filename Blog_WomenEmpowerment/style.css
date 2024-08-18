@@ -1,0 +1,109 @@
+/* Reset margins and padding */
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Set background color for the whole page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: rgb(67, 46, 54);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 90px;
+    font-style: normal;
+}
+
+/* Navigation styles */
+header ol {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+header ol li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ol li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header ol li a:hover {
+    color: #EDBFC6;
+    font-size: large;
+    background-color: rgba(237, 191, 198,0.1)
+}
+
+/* Title styles */
+#title {
+    margin-top: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Image grid */
+.images {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.images img {
+    width: 23%;
+    height: auto;
+    margin: 0.85%;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+/* Content sections */
+h2, h3 {
+    color:rgb(67, 46, 54);
+    margin: 20px 15px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 90px;
+    font-style: normal;
+    
+}
+h2:hover{
+    background-color: rgb(237, 191, 198,0.1);
+}
+h3:hover{
+    background-color: white;
+}
+
+p {
+    margin: 15px;
+    line-height: 1.6;
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Footer */
+footer {
+    background-color: #432E36;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#conclusion{
+    color:white;
+}
